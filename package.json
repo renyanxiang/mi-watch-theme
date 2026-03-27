@@ -1,0 +1,23 @@
+{
+  "name": "mi-watch-s4-theme",
+  "version": "1.0.0",
+  "description": "小米Watch S4主题项目",
+  "main": "src/main.py",
+  "scripts": {
+    "build": "echo 'Building theme...' && python src/main.py build",
+    "dev": "echo 'Starting development mode...' && python src/main.py dev",
+    "test": "echo 'Running tests...' && python src/main.py test"
+  },
+  "keywords": [
+    "xiaomi",
+    "watch",
+    "s4",
+    "theme",
+    "表盘"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "python": "^3.8"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "theme_name": "Mi Watch S4 Theme",
+  "version": "1.0.0",
+  "author": "Your Name",
+  "screen_size": "1.43",
+  "resolution": "466x466",
+  "created_at": "2026-03-27",
+  "elements": {
+    "time": {
+      "x": 233,
+      "y": 200,
+      "font_size": 60,
+      "color": "#FFFFFF",
+      "format": "HH:mm"
+    },
+    "date": {
+      "x": 233,
+      "y": 270,
+      "font_size": 20,
+      "color": "#CCCCCC",
+      "format": "YYYY-MM-DD"
+    },
+    "battery": {
+      "x": 380,
+      "y": 50,
+      "width": 60,
+      "height": 30,
+      "color": "#4CAF50"
+    },
+    "steps": {
+      "x": 100,
+      "y": 350,
+      "font_size": 24,
+      "color": "#FFFFFF"
+    },
+    "heart_rate": {
+      "x": 366,
+      "y": 350,
+      "font_size": 24,
+      "color": "#FF5252"
+    }
+  },
+  "background": {
+    "type": "image",
+    "path": "background.jpg"
+  },
+  "animations": {
+    "enabled": true,
+    "duration": 1000
+  }
+}
